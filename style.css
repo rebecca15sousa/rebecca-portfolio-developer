@@ -31,10 +31,6 @@
 
 /* General styles */
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -153,28 +149,6 @@ header {
     cursor: pointer;
     position: absolute;
     z-index: 1000;
-}
-
-.nav-open .nav {
-    transform: translateX(0);
-}
-
-.nav-open .nav-toggle {
-    position: fixed;
-}
-
-.nav-open .hamburger {
-    transform: rotate(.625turn);
-    background: var(--clr-accent);
-}
-
-.nav-open .hamburger::before {
-    transform: rotate(90deg) translateX(-6px);
-    background: var(--clr-accent);
-}
-
-.nav-open .hamburger::after {
-    opacity: 0;
 }
 
 .hamburger {
