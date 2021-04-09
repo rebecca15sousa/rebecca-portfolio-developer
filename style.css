@@ -302,11 +302,13 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .portfolio__img {
