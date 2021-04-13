@@ -334,16 +334,16 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.portfolio__img:hover, .portfolio__item:focus-within .portfolio__img {
+.portfolio__item:hover .portfolio__img, .portfolio__item:focus-within .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
 }
 
-.portfolio__img:hover ~ .portfolio__btn, .portfolio__item:focus-within .portfolio__btn {
+.portfolio__item:hover .portfolio__btn, .portfolio__item:focus-within .portfolio__btn {
     z-index: 0;
 }
 
-.portfolio__img:hover ~ .portfolio__name, .portfolio__item:focus-within .portfolio__name {
+.portfolio__item:hover .portfolio__name, .portfolio__item:focus-within .portfolio__name {
     display: block;
 }
 
